@@ -9,8 +9,10 @@ public class Main {
                 "Please input number of disks to solve for: ");
 
         Scanner sbr = new Scanner(System.in);
-        Solve han = new Solve(sbr.nextInt());
-        
+        int discs = sbr.nextInt();
+
+        Solve.solveIt(discs, 1, 3, 2);
+
 
     }
 }
